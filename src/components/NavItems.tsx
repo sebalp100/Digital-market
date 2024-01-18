@@ -19,7 +19,7 @@ const NavItems = () => {
         };
 
         const isOpen = i === activeIndex;
-        return <NavItem key={i} />;
+        return <NavItem />;
       })}
     </div>
   );
