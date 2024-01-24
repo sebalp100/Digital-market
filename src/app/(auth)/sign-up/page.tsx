@@ -56,6 +56,7 @@ const page = () => {
                     'focus-visible:ring-red-500': errors.email,
                   })}
                   placeholder="you@example.com"
+                  autoComplete="false"
                 />
               </div>
               <div className="grid gap-1 py-2">
@@ -66,6 +67,8 @@ const page = () => {
                     'focus-visible:ring-red-500': errors.password,
                   })}
                   placeholder="Password"
+                  type="password"
+                  autoComplete="false"
                 />
               </div>
               <Button>Sign up</Button>
