@@ -25,7 +25,7 @@ const page = () => {
   });
 
   const onSubmit = ({ email, password }: TAuthCredentialsValidator) => {
-    //
+  
   };
 
   return (
