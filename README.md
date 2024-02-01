@@ -1,4 +1,4 @@
-This is a digital market app made with NextJs
+This is a digital market app made with NextJs 14, Payload, TailwindCSS and MongoDB.
 
 ## Getting Started
 
